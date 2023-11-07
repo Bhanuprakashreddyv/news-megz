@@ -17,7 +17,7 @@ const NewsBoard = ({category}) => {
         {articles.length > 0 ? (articles.map((news,index)=> (
              <NewsItem key={index} title={news.title} description={news.description} src={news.urlToImage} url={news.url} />
         ))) : (
-            <p>Loading news....</p>
+            <p>Loading news...</p>
         )}
     
     </div>
